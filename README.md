@@ -69,13 +69,15 @@ amazon_soft_toys/
 
 ---
 
-## 📌 Notes
 
-* Amazon often changes HTML structure — this scraper may need updates in the future.
-* Headless Chrome is used for fast scraping.
+
+
+
 
 🚀 Apollo People Lookup Automation
-This project is part of the AI Automation Internship Assignment – Task 1. It automates the process of finding professional details about people using the Apollo.io People Lookup API and logs the results into a Google Sheet.
+This project is part of the AI Automation Internship Assignment – 
+
+Task 1. It automates the process of finding professional details about people using the Apollo.io People Lookup API and logs the results into a Google Sheet.
 
 📌 Features
 🔎 Person Search: Input any person’s name and retrieve their details (Name, Title, Company, Email, LinkedIn).
@@ -173,5 +175,11 @@ creds.json: Google Sheets service account credentials
 Ensure your Apollo API key is valid and active.
 
 If 401 Unauthorized errors occur, verify your API key in .env.
+
+## 📌 Notes
+
+* Amazon often changes HTML structure — this scraper may need updates in the future.
+* Headless Chrome is used for fast scraping.
+
 
 
