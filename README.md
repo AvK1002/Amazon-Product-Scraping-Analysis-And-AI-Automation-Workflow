@@ -182,4 +182,7 @@ If 401 Unauthorized errors occur, verify your API key in .env.
 * Headless Chrome is used for fast scraping.
 
 
+## 🧑‍💻 Author
+
+Maintained by Aswin V Kumar
 
