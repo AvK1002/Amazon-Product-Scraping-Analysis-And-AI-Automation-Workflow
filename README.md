@@ -171,7 +171,32 @@ creds.json: Google Sheets service account credentials
 
 .env: Contains your Apollo API key
 
-📌 Note
+
+# 🔐 API Security (Secret Key)
+
+This project uses a **secret key** to secure access to the API. To run the application successfully, you need to provide this key.
+
+#### Setting the Secret Key
+
+1. **Create a `.env` file** in the root directory of the project (if not already present).
+
+2. Add the following line to the `.env` file:
+
+   ```bash
+   SECRET_KEY=your_secret_key_here
+   ```
+
+3. Ensure your application loads the secret key from environment variables (e.g., using `os.environ.get('SECRET_KEY')` in Python).
+
+#### Important Notes
+
+* **Do not** share your secret key publicly.
+* The `.env` file is listed in `.gitignore` and should never be committed to version control.
+* For production environments, set the `SECRET_KEY` securely using environment-specific configuration.
+
+---
+
+## 📌 Note
 Ensure your Apollo API key is valid and active.
 
 If 401 Unauthorized errors occur, verify your API key in .env.
