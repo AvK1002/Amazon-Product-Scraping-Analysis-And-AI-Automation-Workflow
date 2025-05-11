@@ -74,12 +74,12 @@ amazon_soft_toys/
 
 
 
-🚀 Apollo People Lookup Automation
+# 🚀 Apollo People Lookup Automation
 This project is part of the AI Automation Internship Assignment – 
 
 Task 1. It automates the process of finding professional details about people using the Apollo.io People Lookup API and logs the results into a Google Sheet.
 
-📌 Features
+## 📌 Features
 🔎 Person Search: Input any person’s name and retrieve their details (Name, Title, Company, Email, LinkedIn).
 
 🧠 Apollo API Integration: Connects to the Apollo API to fetch verified professional data.
@@ -90,7 +90,7 @@ Task 1. It automates the process of finding professional details about people us
 
 ✅ Mock API Support: Can use a dummy local API for testing purposes.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Python 3
 
 requests – for making HTTP calls
@@ -103,7 +103,7 @@ dotenv – for loading environment variables
 
 Flask (optional, for mock API testing)
 
-🧪 Setup Instructions
+## 🧪 Setup Instructions
 1. Clone the Repository
 bash
 Copy
@@ -134,7 +134,7 @@ bash
 Copy
 Edit
 python main.py
-✅ Example Output
+## ✅ Example Output
 bash
 Copy
 Edit
@@ -147,7 +147,7 @@ Result logged to Google Sheet.
   'email': 'sundar@google.com',
   'linkedin': 'https://linkedin.com/in/sundarpichai'
 }
-🧪 Testing with Mock API (Optional)
+## 🧪 Testing with Mock API (Optional)
 If Apollo API is not accessible, you can test using a local Flask dummy API:
 
 bash
